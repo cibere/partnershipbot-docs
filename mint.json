@@ -4,8 +4,8 @@
   "favicon": "/favicon.png",
   "colors": {
     "primary": "#e6c247",
-    "light": "#00E701",
-    "dark": "#00E701"
+    "light": "#e6c247",
+    "dark": "#e6c247"
   },
   "topbarLinks": [
     {
@@ -17,19 +17,14 @@
     "name": "Invite Me",
     "url": "https://discord.com/api/oauth2/authorize?client_id=1129577805726875658&permissions=18481&scope=bot%20applications.commands"
   },
-  "tabs": [
-    {
-      "name": "FAQ",
-      "url": "faq"
-    }
-  ],
+  "tabs": [],
   "navigation": [
     {
       "group": "Get Started",
       "pages": ["introduction", "quickstart"]
     },
     {
-      "group": "FAQ",
+      "group": "Information",
       "pages": ["faq"]
     }
   ],
