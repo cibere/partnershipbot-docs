@@ -1,0 +1,56 @@
+---
+title: "Commands"
+description: "A list of all of the bot's commands"
+---
+
+<Card>
+## settings quick-setup
+
+Useage: `/settings quick-setup`
+
+Gives you a quick and easy way to setup the bot.
+
+<Expandable title="arguments">
+    <ParamField body="partnership_channel" type="channel" required>
+    The channel that partnerships will be sent to
+    </ParamField>
+
+    <ParamField body="request_partner_channel" type="channel" required>
+    The channel that partnership requests will be sent to.
+    </ParamField>
+
+    <ParamField body="minimum_member_count" type="number" required>
+    The minimum number of members a server needs to partner with you
+    </ParamField>
+
+    <ParamField body="auto_partner" type="bool" required>
+    If `yes` is passed, [automatic partnerships](features/automatic_partnerships)
+    will be enabled. If `no` is passed, [manual
+    partnerships](features/manual_partnerships) will be enabled
+    </ParamField>
+
+    <ParamField body="extra_info" type="text">
+    Any extra information that appears on the embed when someone finds your server
+    while browsing servers.
+    </ParamField>
+
+    <ParamField body="tags" type="text">
+    A list of tags to help people find similiar servers to their own. You are
+    limited to 5 tags, and tags are seperated by a comma.
+    </ParamField>
+
+    <Note>
+    After the command is ran, the bot will give you a modal so you can paste in
+    your ad. Please do not put your discord invite in there, see the [invite
+    generation feature](features/invite_generation) to learn why.
+    </Note>
+
+</Expandable>
+
+</Card>
+
+## settings remove
+
+Useage: `/settings remove`
+
+Lets you remove your bot from being discoverable.
