@@ -1,22 +1,11 @@
 {
   "$schema": "https://mintlify.com/schema.json",
   "name": "PartnershipBot Docs",
-  "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
-  },
   "favicon": "/favicon.png",
   "colors": {
-    "primary": "#9563FF",
-    "light": "#AE87FF",
-    "dark": "#0D001D",
-    "background": {
-      "dark": "#090014"
-    },
-    "anchors": {
-      "from": "#FF7F57",
-      "to": "#9563FF"
-    }
+    "primary": "#00E701",
+    "light": "#00E701",
+    "dark": "#00E701"
   },
   "topbarLinks": [
     {
@@ -30,8 +19,8 @@
   },
   "tabs": [
     {
-      "name": "API Reference",
-      "url": "api-reference"
+      "name": "FAQ",
+      "url": "faq"
     }
   ],
   "navigation": [
