@@ -29,7 +29,8 @@
         "features/automatic_partnerships",
         "features/manual_partnerships",
         "features/accurate_join_count",
-        "features/invite_generation"
+        "features/invite_generation",
+        "features/find_partners"
       ]
     },
     {
