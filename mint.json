@@ -24,6 +24,13 @@
       "pages": ["introduction", "quickstart"]
     },
     {
+      "group": "Features",
+      "pages": [
+        "features/automatic_partnerships",
+        "features/manual_partnerships"
+      ]
+    },
+    {
       "group": "Information",
       "pages": ["faq"]
     }
