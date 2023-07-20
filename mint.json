@@ -27,6 +27,10 @@
     {
       "group": "Get Started",
       "pages": ["introduction", "quickstart"]
+    },
+    {
+      "group": "FAQ",
+      "pages": ["faq"]
     }
   ],
   "footerSocials": {
