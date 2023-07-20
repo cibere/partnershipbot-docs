@@ -8,6 +8,14 @@ Useage: `/settings quick-setup`
 
 Gives you a quick and easy way to setup the bot.
 
+By default this is hidden to users without the `manage_server` permission. See [the integration guide](guides/integration_settings) to see how to change this.
+
+<Note>
+  After the command is ran, the bot will give you a modal so you can paste in
+  your ad. Please do not put your discord invite in there, see the [invite
+  generation feature](features/invite_generation) to learn why.
+</Note>
+
 <Expandable title="arguments">
     <ParamField body="partnership_channel" type="channel" required>
     The channel that partnerships will be sent to
@@ -36,12 +44,6 @@ Gives you a quick and easy way to setup the bot.
     A list of tags to help people find similiar servers to their own. You are
     limited to 5 tags, and tags are seperated by a comma.
     </ParamField>
-
-    <Note>
-    After the command is ran, the bot will give you a modal so you can paste in
-    your ad. Please do not put your discord invite in there, see the [invite
-    generation feature](features/invite_generation) to learn why.
-    </Note>
 
 </Expandable>
 
