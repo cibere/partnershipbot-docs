@@ -44,7 +44,7 @@
     },
     {
       "group": "Guides",
-      "pages": ["guides/integration_settings"]
+      "pages": ["guides/introduction", "guides/integration_settings"]
     }
   ],
   "footerSocials": {
