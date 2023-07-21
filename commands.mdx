@@ -3,7 +3,8 @@ title: "Commands"
 description: "A list of all of the bot's commands"
 ---
 
-<Card title="/settings quick-setup" id="settings_quick-setup">
+<div id="settings_quick-setup">
+<Card title="/settings quick-setup">
 Useage: `/settings quick-setup`
 
 Gives you a quick and easy way to setup the bot.
@@ -48,48 +49,49 @@ By default this is hidden to users without the `manage_server` permission. See [
 </Expandable>
 
 </Card>
+</div>
 
-<Card title="/settings remove" id="settings_remove">
+<div id="settings_remove">
+<Card title="/settings remove">
     Useage: `/settings remove`
 
     Lets you remove your bot from being discoverable.
 
 </Card>
 
-<Card title="/settings remove" id="settings_remove">
-    Useage: `/settings remove`
+</div>
 
-    Lets you remove your bot from being discoverable.
+<div id="find-partners">
+    <Card title="/find-partners">
+        Useage: `/find-partners`
 
-</Card>
+        Lets you find servers that you can partner with. By default, this only shows servers that fit your requirements, and they fit yours. Though you can add extra filters with the command's arguments.
 
-<Card title="/settings remove" id="settings_remove">
-    Useage: `/settings remove`
+        <Expandable title="arguments">
+            <ParamField body="automatic_partnerships" type="choice">
+                Lets you filter servers by their automatic partnership settings
+                <Expandable title="choices">
+                    - `Only automatic`
+                    - `Only manual`
+                    - `Automatic & Manual (default)`
+                </Expandable>
+            </ParamField>
+            <ParamField body="minimum_membercount" type="number">
+                Lets you filter servers by their membercount
+            </ParamField>
+            <ParamField body="partnership_status" type="choice">
+                Lets you filter servers by wether you've partnered before
+                <Expandable title="choices">
+                    - `New servers I have not partnered with yet`
+                    - `Servers I have already partnered with`
+                    - `All servers. Old and new. (Default)`
+                </Expandable>
+            </ParamField>
+            <ParamField body="tags" type="text">
+                Lets you filter servers by their tags. Seperate tags by a comma. Only servers with one of the given tags will show up
+            </ParamField>
+        </Expandable>
 
-    Lets you remove your bot from being discoverable.
-
-</Card>
-
-<Card title="/settings remove" id="settings_remove">
-    Useage: `/settings remove`
-
-    Lets you remove your bot from being discoverable.
-
-</Card>
-
-<Card title="/settings remove" id="settings_remove">
-    Useage: `/settings remove`
-
-    Lets you remove your bot from being discoverable.
-
-</Card>
-
-<div id="cmd">
-<Card title="/settings remove" id="settings_remove2">
-    Useage: `/settings remove`
-
-    Lets you remove your bot from being discoverable.
-
-</Card>
+    </Card>
 
 </div>
