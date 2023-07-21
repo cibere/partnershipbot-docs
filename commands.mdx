@@ -97,3 +97,65 @@ By default this is hidden to users without the `manage_server` permission. See [
     </Card>
 
 </div>
+
+<div id="about">
+    <Card title="/about">
+        Useage: `/about`
+
+        This shows you information about the bot
+    </Card>
+
+</div>
+
+<div id="help">
+    <Card title="/help">
+        Useage: `/help`
+
+        Has a brief quickstart, along with links to the docs and support server
+
+        <Expandable title="arguments">
+            <Snippet file="show_others_arg.mdx" />
+        </Expandable>
+    </Card>
+
+</div>
+
+<div id="partner">
+    <Card title="/partner">
+        Useage: `/partner`
+
+        Lets you partner with a server that you share with the bot.
+
+        By default this is hidden to users without the `manage_server` permission. See [the integration guide](guides/integration_settings) to see how to change this.
+
+        <Expandable title="arguments">
+            <ParamField body="server" type="server">
+                The server you want to partner with.
+                <Tip>Use the autocomplete that the bot provides. This includes clicking on the option of the server you want to partner with.</Tip>
+            </ParamField>
+        </Expandable>
+    </Card>
+
+</div>
+
+<div id="partnerships_view">
+    <Card title="/partnerships view">
+        Useage: `/partnerships view`
+
+        This command lets you view past partnerships the current server has made.
+    </Card>
+
+</div>
+
+<div id="partnerships_requirements">
+    <Card title="/partnerships requirements">
+        Useage: `/partnerships requirements`
+
+        This command lets you see the current partnership requirements
+
+        <Expandable title="arguments">
+            <Snippet file="show_others_arg.mdx" />
+        </Expandable>
+    </Card>
+
+</div>
