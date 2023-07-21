@@ -5,3 +5,15 @@ description:
   off and let people request partnerships."
 icon: "person"
 ---
+
+Disabling automatic partnerships allows for partnership requests (otherwise known as manual partnerships) to be enabled. When you set up the bot, you provide a `request_partner_channel` channel. When someone partners with you when you have partnership requests enabled, a partnership request will be sent to that channel for approval before being sent to the partnership channel.
+
+## How it works with [`/find-partners`](commands#find-partners)
+
+![Image of `/find-partners`](https://i.imgur.com/FR9P0G4.png)
+
+The `partner` button has been renamed to `Request Partnership` for a bigger indication of partnership requests being enabled.
+
+## How it works with [`/partner`](commands#partner)
+
+Instead of the partnership being completed, the request is sent instead.
