@@ -3,3 +3,10 @@ title: "Accurate Join Counts"
 description: "See excacly how many peopled joined from a certain partnership."
 icon: "crosshairs"
 ---
+
+PartnershipBot not only keeps track of invites it [generates](features/invite_generation), but also every other invite in your server. It does this so it can figure out what invite someone used to join your server, and thus being able to verify joins. To take this even further, the bot keeps track of individual users who join due to a partnership to help prevent artificial inflation.
+Because of this, the bot requires the `manage_server` and `manage_channels` permissions. See [here](https://partner-docs.cibere.dev/faq#q-why-does-the-bot-need-each-of-its-permissions) for a more in-depth description on why it needs each.
+
+<Warning>
+  If the bot does not have sufficient permissions, joins will not be counted.
+</Warning>
